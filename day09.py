@@ -47,7 +47,7 @@ def simulate_rope(actions):
             #  print(head, tail, set(tail_positions))
     return len(first_tail_positions), len(last_tail_positions)
 
-with open("inputs/day9.txt") as file:
+with open("inputs/day09.txt") as file:
     actions = file.readlines()
     actions = map(lambda x: x.strip(), actions)
 

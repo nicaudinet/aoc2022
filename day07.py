@@ -1,4 +1,4 @@
-with open("inputs/day7.txt") as file:
+with open("inputs/day07.txt") as file:
     commands = file.readlines()
     commands = list(map(lambda s: s.strip(), commands))
     commands = commands[1:]

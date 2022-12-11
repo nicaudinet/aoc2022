@@ -1,6 +1,6 @@
 import numpy as np
 
-with open("inputs/day8.txt") as file:
+with open("inputs/day08.txt") as file:
     contents = file.readlines()
     contents = list(map(lambda x: x.strip(), contents))
 

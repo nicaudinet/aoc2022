@@ -1,4 +1,4 @@
-with open("inputs/day6.txt") as file:
+with open("inputs/day06.txt") as file:
     contents = file.read()
 
 #  contents = "mjqjpqmgbljsphdztnvjfqwrcgsmlb"

@@ -1,4 +1,4 @@
-with open("inputs/day2.txt") as file:
+with open("inputs/day02.txt") as file:
     lines = file.readlines()
 
 #  lines = ["A Y", "B X", "C Z"] 

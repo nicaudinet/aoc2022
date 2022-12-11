@@ -17,7 +17,7 @@ def play_move(move, stacks, reverse):
         stacks[d] += o_stack[-n:]
     return stacks
 
-with open("inputs/day5.txt") as file:
+with open("inputs/day05.txt") as file:
     contents = file.readlines()
     moves = list(filter(lambda x: x[0] == 'm', contents))
     moves = list(map(lambda x: parse_move(x.strip()), moves))
